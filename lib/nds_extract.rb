@@ -73,7 +73,7 @@ def gross_per_studio(collection)
   hash = {}
   index = 0 
   while index < collection[index]
-    if !answer[movie[:studio]]
+    if !hash[movie[:studio]]
       hash[movie[:studio]] = movie[:worldwide_gross]
     else 
       hash[movie[:studio]] += movie[:worldwide_gross]

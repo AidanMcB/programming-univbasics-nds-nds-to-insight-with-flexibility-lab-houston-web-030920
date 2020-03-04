@@ -73,7 +73,7 @@ def gross_per_studio(collection)
   hash = {}
   movie_index = 0 
   while movie_index < collection.length do 
-    
+    hash[:studio]
 end 
 
 def movies_with_directors_set(source)

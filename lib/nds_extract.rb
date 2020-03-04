@@ -102,6 +102,9 @@ def movies_with_directors_set(source)
    d_name = d_info[:name]
    d_movies = d_info[:movies]
    newArr << movies_with_director_key(d_name, d_movies)
+   index += 1 
+ end 
+ newArr
 end
 
 # ----------------    End of Your Code Region --------------------

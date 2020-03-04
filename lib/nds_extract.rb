@@ -100,7 +100,7 @@ def movies_with_directors_set(source)
  while index < source.length do 
    d_info = source[index]
    d_name = d_info[:name]
-   d_movies = source[index][:name][:movies]
+   d_movies = d_info[:movies]
    newArr << 
 end
 

@@ -101,7 +101,7 @@ def movies_with_directors_set(source)
    d_info = source[index]
    d_name = d_info[:name]
    d_movies = d_info[:movies]
-   newArr << 
+   newArr << movies_with_director_key(d_name, d_movies)
 end
 
 # ----------------    End of Your Code Region --------------------
